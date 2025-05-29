@@ -9,6 +9,8 @@ Extract and then change the file permission to executable
 
 `cd Downloads` 
 
+`unzip <file-name>`
+
 `cd linux-go-main`
 
 `chmod +x script.sh` 
