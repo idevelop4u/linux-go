@@ -1,2 +1,1 @@
-# ubuntu-starter
-A simple script to setup and get the best out of your ubuntu desktop!
+**Linux Go** is a simple script made to setup your linux desktop for the first time 
