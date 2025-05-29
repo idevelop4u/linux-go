@@ -9,7 +9,7 @@ Extract and then change the file permission to executable
 
 `cd Downloads` 
 
-`unzip <file-name>`
+`unzip linux-go-main.zip`
 
 `cd linux-go-main`
 
