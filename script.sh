@@ -7,7 +7,8 @@ echo -e "\nMade by TheDevilMan"
 
 sudo apt update && sudo apt upgrade -y 
 
-sudo apt install -y git wget curl vim fastfetch htop vlc clamav clamtk gparted libreoffice ufw lutris gnome-boxes qemu
+sudo apt install -y git wget curl vim tree fastfetch gdebi htop vlc clamav clamtk gparted libreoffice ufw lutris gnome-boxes qemu
+sudo ufw enable
 
 echo -e "\nAll packages have been installed successfully."
 
@@ -33,6 +34,21 @@ fi
 
 echo -e "Thank you for using this script! All packages have been installed successfully."
 echo -e "\nYou can now use your system with the installed packages."
+
+cd ~/Desktop
+cat > Welcome.txt <<EOF
+Below are some helpful commands
+To update and upgrade your system:
+$ sudo apt update && sudo apt upgrade -y 
+
+To install any system package 
+$ sudo apt install <package_name>
+
+To install any debian (.deb) package 
+$ sudo su
+$ cd Downloads
+$ gdebi <package_name>.deb
+EOF
 
 
 
