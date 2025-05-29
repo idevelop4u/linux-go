@@ -4,8 +4,8 @@
 
 ## Ubuntu 25.04 (Plucky Puffin)
 
-Download the zip or clone the repository 
-Extract and then change the file permission to executable 
+Download the zip file or clone from the repository. 
+Extract and then change the file permission to executable. 
 
 **Terminal**: 
 
