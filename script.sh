@@ -4,7 +4,6 @@ cat ascii.txt
 
 echo -e "\nMade by TheDevilMan"
 
-# echo -e "\n"  This command interprets the escape sequences 
 
 sudo apt update && sudo apt upgrade -y 
 
@@ -16,7 +15,6 @@ echo -e "\nDo you wish to continue with the installation of additional features?
 
 read -r response 
 
-# read -r is used to not interpret escape sequences that comes after \ 
 if [[ "$response" =~ ^[yY]$ ]]; then
     echo -e "\nInstalling additional features..."
     sudo apt install -y build-essential python3 python3-pip nodejs npm snapd gcc make cmake lutris 
