@@ -8,7 +8,7 @@ echo -e "\nMade by TheDevilMan"
 
 sudo apt update && sudo apt upgrade -y 
 
-sudo apt install -y git wget curl vim fastfetch htop vlc clamav clamtk gparted libreoffice ufw
+sudo apt install -y git wget curl vim fastfetch htop vlc clamav clamtk gparted libreoffice ufw lutris gnome-boxes qemu
 
 echo -e "\nAll packages have been installed successfully."
 
@@ -23,7 +23,7 @@ if [[ "$response" =~ ^[yY]$ ]]; then
     sudo apt install -y python3-venv python3-dev python3-tk python3-pip python3-setuptools python3-wheel
     sudo snap install code --classic
     sudo snap install postman
-    sudo snap install openjdk 
+    sudo snap install openjdk-17 
     sudo snap install spotify
     sudo snap install discord
     sudo snap install slack --classic
