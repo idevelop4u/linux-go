@@ -9,7 +9,7 @@ Extract and then change the file permission to executable
 
 `cd Downloads` 
 
-`cd Linux go`
+`cd linux-go-main`
 
 `chmod +x script.sh` 
 
